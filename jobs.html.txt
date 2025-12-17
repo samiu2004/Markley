@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – Client Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="jobs.html" class="active">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1 class="section-title">Client Projects</h1>
+        <p class="section-subtitle">
+          These are service-based projects posted by clients who need freelancers, similar to Upwork and Fiverr.
+        </p>
+
+        <!-- Search / filters -->
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <form class="hero-search">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="job-search">Search projects</label>
+                <input id="job-search" type="text" placeholder="e.g. Shopify store, logo, SEO campaign" />
+              </div>
+              <div class="form-group">
+                <label for="job-category">Category</label>
+                <select id="job-category">
+                  <option>All categories</option>
+                  <option>Web Development</option>
+                  <option>Graphic Design</option>
+                  <option>Content Writing</option>
+                  <option>Digital Marketing</option>
+                  <option>Video & Animation</option>
+                  <option>Mobile App Development</option>
+                  <option>SEO & ASO</option>
+                  <option>Virtual Assistance</option>
+                  <option>E‑commerce Management</option>
+                  <option>Data & Analytics</option>
+                </select>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary full-width">Filter Projects (UI demo)</button>
+          </form>
+        </div>
+
+        <!-- Projects list -->
+        <div class="grid-3">
+          <article class="card">
+            <h3>Shopify Store Setup for Clothing Brand</h3>
+            <p class="freelancer-rate">
+              Budget: <span class="price" data-pkr="35000">PKR 35,000</span>
+            </p>
+            <p class="freelancer-body">
+              Lahore-based clothing startup needs a full Shopify store with theme customization, payment integration and 20 initial products.
+            </p>
+            <p class="freelancer-body">
+              Category: E‑commerce Management · Web Development
+            </p>
+            <p class="freelancer-body">
+              Duration: 3 weeks · Client: Small business · Mode: Remote
+            </p>
+            <button class="btn btn-outline full-width">Send Proposal (demo)</button>
+          </article>
+
+          <article class="card">
+            <h3>Monthly Social Media Management (Instagram & Facebook)</h3>
+            <p class="freelancer-rate">
+              Budget: <span class="price" data-pkr="25000">PKR 25,000</span>
+            </p>
+            <p class="freelancer-body">
+              Restaurant in Karachi wants daily posts, stories and basic ad campaigns to increase footfall and delivery orders.
+            </p>
+            <p class="freelancer-body">
+              Category: Digital Marketing · Content Writing
+            </p>
+            <p class="freelancer-body">
+              Duration: 1 month · Client: Restaurant · Mode: Hybrid
+            </p>
+            <button class="btn btn-outline full-width">Send Proposal (demo)</button>
+          </article>
+
+          <article class="card">
+            <h3>Logo & Branding Kit for Tech Startup</h3>
+            <p class="freelancer-rate">
+              Budget: <span class="price" data-pkr="18000">PKR 18,000</span>
+            </p>
+            <p class="freelancer-body">
+              Islamabad-based SaaS startup needs logo, color palette, typography and basic brand guidelines PDF.
+            </p>
+            <p class="freelancer-body">
+              Category: Graphic Design
+            </p>
+            <p class="freelancer-body">
+              Duration: 2 weeks · Client: Startup · Mode: Remote
+            </p>
+            <button class="btn btn-outline full-width">Send Proposal (demo)</button>
+          </article>
+
+          <article class="card">
+            <h3>Blog Content Package – 8 SEO Articles / Month</h3>
+            <p class="freelancer-rate">
+              Budget: <span class="price" data-pkr="22000">PKR 22,000</span>
+            </p>
+            <p class="freelancer-body">
+              Fintech blog needs long-form SEO articles targeting Pakistani audience around payments, banking and freelancer finance.
+            </p>
+            <p class="freelancer-body">
+              Category: Content Writing · SEO & ASO
+            </p>
+            <p class="freelancer-body">
+              Duration: 1 month · Client: Blog · Mode: Remote
+            </p>
+            <button class="btn btn-outline full-width">Send Proposal (demo)</button>
+          </article>
+
+          <article class="card">
+            <h3>Explainer Video for Mobile App (60–90 seconds)</h3>
+            <p class="freelancer-rate">
+              Budget: <span class="price" data-pkr="40000">PKR 40,000</span>
+            </p>
+            <p class="freelancer-body">
+              Health-tech startup requires script, storyboard, voiceover and animated explainer for app launch.
+            </p>
+            <p class="freelancer-body">
+              Category: Video & Animation
+            </p>
+            <p class="freelancer-body">
+              Duration: 3 weeks · Client: Startup · Mode: Remote
+            </p>
+            <button class="btn btn-outline full-width">Send Proposal (demo)</button>
+          </article>
+
+          <article class="card">
+            <h3>Data Dashboard in Google Data Studio / Looker</h3>
+            <p class="freelancer-rate">
+              Budget: <span class="price" data-pkr="30000">PKR 30,000</span>
+            </p>
+            <p class="freelancer-body">
+              SME in Faisalabad needs a sales and marketing dashboard pulling data from Google Sheets and Facebook Ads.
+            </p>
+            <p class="freelancer-body">
+              Category: Data & Analytics
+            </p>
+            <p class="freelancer-body">
+              Duration: 2 weeks · Client: SME · Mode: Remote
+            </p>
+            <button class="btn btn-outline full-width">Send Proposal (demo)</button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="index.html">Home</a></p>
+        <p class="footer-text"><a href="freelancers.html">Browse Freelancers</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

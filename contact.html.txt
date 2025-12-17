@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="jobs.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1 class="section-title">Contact Makerly</h1>
+        <p class="section-subtitle">
+          This is a prototype marketplace created by Students of IBA. For project or feedback queries, use the academic contact details below.[web:301][web:303]
+        </p>
+
+        <div class="commission-layout" style="margin-top:1.5rem;">
+          <div class="commission-text">
+            <h2 class="section-title">Support details</h2>
+            <p class="section-subtitle">
+              These details are for demonstration only and can be replaced with real support channels if the project goes live.
+            </p>
+            <ul class="commission-list">
+              <li><strong>Email:</strong> <a href="mailto:contact@makerly.com">contact@makerly.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:0427466555">042-7466555</a></li>
+              <li><strong>Availability:</strong> Monday – Friday, 10:00 AM – 6:00 PM (PKT)</li>
+            </ul>
+            <p>
+              Students can extend this prototype later by integrating a real contact form service (e.g. StaticForms or Web3Forms) if they need actual submissions from users.[web:301][web:309]
+            </p>
+          </div>
+          <div class="commission-card">
+            <h3>Quick message (UI only)</h3>
+            <form class="hero-search">
+              <div class="form-group">
+                <label for="c-name">Name</label>
+                <input id="c-name" type="text" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="c-email">Email</label>
+                <input id="c-email" type="email" placeholder="you@example.com" />
+              </div>
+              <div class="form-group">
+                <label for="c-message">Message</label>
+                <textarea id="c-message" rows="4" style="resize:vertical; width:100%; padding:0.55rem 0.7rem; border-radius:0.75rem; border:1px solid rgba(31,41,55,0.9); background:rgba(15,23,42,0.8); color:#e5e7eb;" placeholder="Share your feedback about Makerly prototype"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary full-width">
+                Send (demo only)
+              </button>
+              <p class="hero-note">
+                This form does not send real emails in the prototype. On a live site, it can be connected to an email or form API service.[web:301]
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="index.html">Home</a></p>
+        <p class="footer-text"><a href="freelancers.html">Browse Freelancers</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

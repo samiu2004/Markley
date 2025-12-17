@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – Browse Freelancers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="freelancers.html" class="active">Freelancers</a>
+        <a href="jobs.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1 class="section-title">Browse Freelancers</h1>
+        <p class="section-subtitle">
+          Discover Pakistani freelancers across 10 focused categories, with clear pricing in PKR and USD and a fair 15% commission.
+        </p>
+
+        <!-- Filters (front-end only) -->
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <form class="hero-search">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="filter-category">Category</label>
+                <select id="filter-category">
+                  <option>All categories</option>
+                  <option>Web Development</option>
+                  <option>Graphic Design</option>
+                  <option>Content Writing</option>
+                  <option>Digital Marketing</option>
+                  <option>Video & Animation</option>
+                  <option>Mobile App Development</option>
+                  <option>SEO & ASO</option>
+                  <option>Virtual Assistance</option>
+                  <option>E‑commerce Management</option>
+                  <option>Data & Analytics</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="filter-city">City</label>
+                <select id="filter-city">
+                  <option>All cities</option>
+                  <option>Karachi</option>
+                  <option>Lahore</option>
+                  <option>Islamabad</option>
+                  <option>Faisalabad</option>
+                  <option>Multan</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="filter-budget">Max Budget (PKR)</label>
+                <input id="filter-budget" type="number" placeholder="e.g. 20000" />
+              </div>
+              <div class="form-group">
+                <label for="filter-search">Keyword</label>
+                <input id="filter-search" type="text" placeholder="e.g. Shopify, logo, SEO" />
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary full-width">Filter Freelancers (UI demo)</button>
+          </form>
+        </div>
+
+        <!-- Freelancers grid -->
+        <div class="grid-3">
+          <article class="card freelancer-card">
+            <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Web developer" />
+            <div class="freelancer-body">
+              <h3>Ali Raza · Web Developer</h3>
+              <p>Lahore · React · Next.js · Node.js</p>
+              <p class="freelancer-rate">
+                From <span class="price" data-pkr="8000">PKR 8,000</span> / landing page
+              </p>
+              <p class="freelancer-rating">★★★★★ 4.9 (32 reviews)</p>
+            </div>
+          </article>
+
+          <article class="card freelancer-card">
+            <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Designer" />
+            <div class="freelancer-body">
+              <h3>Fatima Khan · Brand Designer</h3>
+              <p>Karachi · Logos · Brand identity · Social kits</p>
+              <p class="freelancer-rate">
+                From <span class="price" data-pkr="6000">PKR 6,000</span> / logo
+              </p>
+              <p class="freelancer-rating">★★★★★ 5.0 (18 reviews)</p>
+            </div>
+          </article>
+
+          <article class="card freelancer-card">
+            <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Content writer" />
+            <div class="freelancer-body">
+              <h3>Hassan Ali · Content Writer</h3>
+              <p>Islamabad · Blogs · Copywriting · Scripts</p>
+              <p class="freelancer-rate">
+                From <span class="price" data-pkr="4000">PKR 4,000</span> / article
+              </p>
+              <p class="freelancer-rating">★★★★☆ 4.7 (27 reviews)</p>
+            </div>
+          </article>
+
+          <article class="card freelancer-card">
+            <img src="https://images.pexels.com/photos/1181559/pexels-photo-1181559.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Social media marketer" />
+            <div class="freelancer-body">
+              <h3>Sana Javed · Social Media Marketer</h3>
+              <p>Karachi · Instagram · TikTok · Facebook ads</p>
+              <p class="freelancer-rate">
+                From <span class="price" data-pkr="10000">PKR 10,000</span> / month
+              </p>
+              <p class="freelancer-rating">★★★★★ 4.9 (21 reviews)</p>
+            </div>
+          </article>
+
+          <article class="card freelancer-card">
+            <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Video editor" />
+            <div class="freelancer-body">
+              <h3>Umer Sheikh · Video Editor</h3>
+              <p>Faisalabad · YouTube · Reels · Explainers</p>
+              <p class="freelancer-rate">
+                From <span class="price" data-pkr="7000">PKR 7,000</span> / video
+              </p>
+              <p class="freelancer-rating">★★★★☆ 4.6 (19 reviews)</p>
+            </div>
+          </article>
+
+          <article class="card freelancer-card">
+            <img src="https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Virtual assistant" />
+            <div class="freelancer-body">
+              <h3>Maheen Arif · Virtual Assistant</h3>
+              <p>Multan · Admin · Customer support · Data entry</p>
+              <p class="freelancer-rate">
+                From <span class="price" data-pkr="35000">PKR 35,000</span> / month
+              </p>
+              <p class="freelancer-rating">★★★★★ 5.0 (12 reviews)</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="index.html">Home</a></p>
+        <p class="footer-text"><a href="pricing.html">Commission & Pricing</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

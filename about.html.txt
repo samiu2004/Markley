@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="jobs.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1 class="section-title">About Makerly</h1>
+        <p class="section-subtitle">
+          Makerly is a Pakistan‑first freelance services marketplace prototype, created as a professional business project by Students of IBA.
+        </p>
+
+        <div class="grid-3" style="margin-top:1.5rem;">
+          <div class="card">
+            <h3>Our mission</h3>
+            <p>
+              Enable Pakistani freelancers and small businesses to work together on a fair, transparent and modern platform with local payments, Urdu support and dual currency display.[web:120]
+            </p>
+            <p>
+              Makerly aims to reduce barriers like PayPal restrictions, high commissions and complex pricing structures common on global platforms.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Our positioning</h3>
+            <p>
+              Makerly is positioned as a focused alternative to Rozee.pk, Fiverr, Upwork and WorkChest, dedicated to services and projects rather than generic job listings.[web:87][web:295]
+            </p>
+            <p>
+              By concentrating on 10 core categories, the platform emphasizes quality over quantity and relevance for Pakistani clients.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Who built Makerly?</h3>
+            <p>
+              This prototype and business plan were designed and owned by Students of IBA as part of an academic project in entrepreneurship and digital business.
+            </p>
+            <p>
+              It demonstrates how a local marketplace could compete with international platforms through design, technology, and localized strategy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title">Departments & responsibilities</h2>
+        <p class="section-subtitle">
+          The Makerly business plan organizes work into departments to run a full marketplace: Product & Technology, Marketing & Growth, and Operations / Finance / HR.
+        </p>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Product & Technology</h3>
+            <p>
+              Designs the platform, manages development, security, performance and future features like escrow, rating systems and advanced search.[web:134]
+            </p>
+            <p>
+              Ensures a mobile‑first, Urdu‑friendly and dual‑currency experience for users.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Marketing & Growth</h3>
+            <p>
+              Handles campaigns, university outreach, influencer marketing and social media content to bring freelancers and clients onto the platform.[web:123]
+            </p>
+            <p>
+              Tracks KPIs like signups, active users and cost per acquisition to optimize spend.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Operations, Finance & HR</h3>
+            <p>
+              Operations: manages verification, dispute handling and customer support workflows.[web:120]
+            </p>
+            <p>
+              Finance: monitors commission revenue and payouts. HR: recruits and supports the internal team growing Makerly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="pricing.html">Commission & Pricing</a></p>
+        <p class="footer-text"><a href="freelancers.html">Browse Freelancers</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

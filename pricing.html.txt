@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – Commission & Pricing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="jobs.html">Projects</a>
+        <a href="pricing.html" class="active">Pricing</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1 class="section-title">Commission & Pricing</h1>
+        <p class="section-subtitle">
+          Makerly keeps pricing simple and transparent: a flat 15% commission on completed projects, with clear fees for both clients and freelancers.
+        </p>
+
+        <div class="commission-layout" style="margin-top: 1.5rem;">
+          <div class="commission-text">
+            <h2 class="section-title">Simple flat 15% model</h2>
+            <p class="section-subtitle">
+              Many freelance marketplaces use complex tiers or charge both sides hidden fees. Makerly keeps it easy to understand.
+            </p>
+            <ul class="commission-list">
+              <li><strong>For freelancers:</strong> 15% commission on the project amount you earn.</li>
+              <li><strong>For clients:</strong> Transparent service fee shown at checkout.</li>
+              <li><strong>No hidden charges:</strong> Dual currency view (PKR and USD) so everyone sees the value clearly.</li>
+              <li><strong>Local focus:</strong> JazzCash, Easypaisa and bank transfer support planned as core payment channels.</li>
+            </ul>
+            <p>
+              This model is designed to be cheaper than typical 20%+ fees on global platforms while still making the platform sustainable as it grows.[web:120][web:123]
+            </p>
+          </div>
+
+          <div class="commission-card">
+            <h3>Platform comparison</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Platform</th>
+                  <th>Typical Fees</th>
+                  <th>Currency</th>
+                  <th>Local Focus</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Makerly</td>
+                  <td>15% flat</td>
+                  <td>PKR + USD</td>
+                  <td>Pakistan‑first</td>
+                </tr>
+                <tr>
+                  <td>Upwork</td>
+                  <td>≈20% on early earnings</td>
+                  <td>Mostly USD</td>
+                  <td>Global</td>
+                </tr>
+                <tr>
+                  <td>Fiverr</td>
+                  <td>≈20% on each order</td>
+                  <td>USD‑first</td>
+                  <td>Global</td>
+                </tr>
+                <tr>
+                  <td>Rozee.pk</td>
+                  <td>Job‑post packages</td>
+                  <td>PKR</td>
+                  <td>Pakistan</td>
+                </tr>
+                <tr>
+                  <td>WorkChest</td>
+                  <td>Varies by project</td>
+                  <td>PKR</td>
+                  <td>Pakistan</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="commission-note">
+              Makerly positions itself as a focused services marketplace with simpler, more affordable commission structure.
+            </p>
+          </div>
+        </div>
+
+        <!-- Example earnings -->
+        <section class="section" style="padding-left:0; padding-right:0;">
+          <div class="section-inner">
+            <h2 class="section-title">Example earnings for freelancers</h2>
+            <p class="section-subtitle">
+              The table below shows how much a freelancer keeps after Makerly’s 15% commission on different project sizes.
+            </p>
+            <div class="commission-card">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Project Value (PKR)</th>
+                    <th>Makerly Commission (15%)</th>
+                    <th>Freelancer Receives (PKR)</th>
+                    <th>Approx. in USD</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>10,000</td>
+                    <td>1,500</td>
+                    <td>8,500</td>
+                    <td>≈ USD 28</td>
+                  </tr>
+                  <tr>
+                    <td>25,000</td>
+                    <td>3,750</td>
+                    <td>21,250</td>
+                    <td>≈ USD 71</td>
+                  </tr>
+                  <tr>
+                    <td>50,000</td>
+                    <td>7,500</td>
+                    <td>42,500</td>
+                    <td>≈ USD 142</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="commission-note">
+                USD values are approximate, based on a demo rate (e.g. 1 USD ≈ 300 PKR) and used only for display in this prototype.[web:240]
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="index.html">Home</a></p>
+        <p class="footer-text"><a href="freelancers.html">Browse Freelancers</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

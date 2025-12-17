@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – Local Talent First</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="jobs.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 id="hero-title">Local Talent First</h1>
+        <p id="hero-subtitle">
+          Pakistan-first freelance marketplace connecting businesses with verified local talent, 
+          dual currency support, Urdu interface, and a fair 15% commission.
+        </p>
+        <div class="hero-cta-group">
+          <a href="freelancers.html" class="btn btn-primary">Hire Talent</a>
+          <a href="freelancers.html" class="btn btn-outline">Become a Freelancer</a>
+        </div>
+        <p class="hero-meta">
+          Competing with Rozee.pk, Fiverr, Upwork and WorkChest – built for Pakistan’s freelance economy.
+        </p>
+        <p class="hero-meta owner">
+          Makerly is designed and owned by Students of IBA.
+        </p>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <span class="badge">Live Demo · Prototype</span>
+          <span class="hero-card-title">Find your next freelancer</span>
+        </div>
+        <form class="hero-search">
+          <div class="form-group">
+            <label for="search-skill">What do you need?</label>
+            <input id="search-skill" type="text" placeholder="e.g. Logo design, Shopify store, Social media" />
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="search-category">Category</label>
+              <select id="search-category">
+                <option>All categories</option>
+                <option>Web Development</option>
+                <option>Graphic Design</option>
+                <option>Content Writing</option>
+                <option>Digital Marketing</option>
+                <option>Video & Animation</option>
+                <option>Mobile Apps</option>
+                <option>SEO & ASO</option>
+                <option>Virtual Assistance</option>
+                <option>E‑commerce Management</option>
+                <option>Data & Analytics</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="search-budget">Budget (PKR)</label>
+              <input id="search-budget" type="number" placeholder="e.g. 15000" />
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary full-width">Search Freelancers</button>
+          <p class="hero-note">
+            Dual currency preview: prices display in PKR and USD for clients and freelancers.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- USP / Features -->
+  <section class="section">
+    <div class="section-inner">
+      <h2 class="section-title" id="usp-title">Why Makerly?</h2>
+      <p class="section-subtitle">
+        A Pakistan-first freelance marketplace built for local realities: payments, language, and fair fees.
+      </p>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Fair 15% Commission</h3>
+          <p>
+            Transparent 15% flat commission keeps more earnings with freelancers and offers better value 
+            to clients compared to global platforms that charge 20% or more.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Local Payments & Dual Currency</h3>
+          <p>
+            Support for JazzCash, Easypaisa and local bank transfers with pricing in both PKR and USD, 
+            helping clients and freelancers agree on rates without confusion.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Urdu & Pakistan-first UX</h3>
+          <p>
+            Urdu interface labels and Pakistan-specific categories make the platform accessible for local 
+            businesses and freelancers across cities and regions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">Top Service Categories</h2>
+      <p class="section-subtitle">
+        Makerly focuses on 10 high-demand categories instead of 1800 generic ones, ensuring quality over quantity.
+      </p>
+      <div class="grid-5 categories-grid">
+        <span class="pill">Web Development</span>
+        <span class="pill">Graphic Design</span>
+        <span class="pill">Content Writing</span>
+        <span class="pill">Digital Marketing</span>
+        <span class="pill">Video & Animation</span>
+        <span class="pill">Mobile App Development</span>
+        <span class="pill">SEO & ASO</span>
+        <span class="pill">Virtual Assistance</span>
+        <span class="pill">E‑commerce Management</span>
+        <span class="pill">Data & Analytics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Commission Highlight -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="commission-layout">
+        <div class="commission-text">
+          <h2 class="section-title">Commission that favors you</h2>
+          <p class="section-subtitle">
+            Simple, transparent and lower than global competitors so Pakistani freelancers keep more of what they earn.
+          </p>
+          <ul class="commission-list">
+            <li><strong>Makerly:</strong> 15% flat commission on completed projects</li>
+            <li><strong>Upwork / Fiverr:</strong> often 20% or tiered fees</li>
+            <li><strong>Local job boards:</strong> unclear or off‑platform arrangements</li>
+          </ul>
+          <p>
+            Clients see a clear service fee and freelancers see their net earnings upfront, reducing negotiations 
+            and increasing trust on both sides.
+          </p>
+        </div>
+        <div class="commission-card">
+          <h3>Quick comparison</h3>
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Platform</th>
+                <th>Commission</th>
+                <th>PKR / USD</th>
+                <th>Urdu Support</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Makerly</td>
+                <td>15%</td>
+                <td>Both</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Upwork</td>
+                <td>≈20%</td>
+                <td>Mostly USD</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td>Fiverr</td>
+                <td>≈20%</td>
+                <td>USD‑first</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td>Rozee.pk</td>
+                <td>Job‑post fees</td>
+                <td>PKR</td>
+                <td>Limited</td>
+              </tr>
+              <tr>
+                <td>WorkChest</td>
+                <td>Varies</td>
+                <td>PKR</td>
+                <td>Partial</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="commission-note">
+            Makerly is designed as a focused services marketplace, not a generic job board.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dummy creators preview -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">Featured Freelancers</h2>
+      <p class="section-subtitle">
+        A glimpse of the kind of verified creators that Makerly aims to onboard across Pakistan.
+      </p>
+      <div class="grid-3">
+        <article class="card freelancer-card">
+          <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Web developer" />
+          <div class="freelancer-body">
+            <h3>Ali Raza · Web Developer</h3>
+            <p>Lahore · React, Next.js, Node.js</p>
+            <p class="freelancer-rate">
+              From <span class="price" data-pkr="8000">PKR 8,000</span> / project
+            </p>
+            <p class="freelancer-rating">★★★★★ 4.9 (32 reviews)</p>
+          </div>
+        </article>
+        <article class="card freelancer-card">
+          <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Designer" />
+          <div class="freelancer-body">
+            <h3>Fatima Khan · Brand Designer</h3>
+            <p>Karachi · Logo, identity, social media kits</p>
+            <p class="freelancer-rate">
+              From <span class="price" data-pkr="6000">PKR 6,000</span> / project
+            </p>
+            <p class="freelancer-rating">★★★★★ 5.0 (18 reviews)</p>
+          </div>
+        </article>
+        <article class="card freelancer-card">
+          <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Content writer" />
+          <div class="freelancer-body">
+            <h3>Hassan Ali · Content Writer</h3>
+            <p>Islamabad · Blogs, SEO content, scripts</p>
+            <p class="freelancer-rate">
+              From <span class="price" data-pkr="4000">PKR 4,000</span> / project
+            </p>
+            <p class="freelancer-rating">★★★★☆ 4.7 (27 reviews)</p>
+          </div>
+        </article>
+      </div>
+      <div class="center">
+        <a href="freelancers.html" class="btn btn-outline">View all freelancers</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+        <p class="footer-text">
+          Competing with Rozee.pk, Fiverr, Upwork and WorkChest through local payments, Urdu support and fair pricing.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="how-it-works.html">How It Works</a></p>
+        <p class="footer-text"><a href="pricing.html">Commission & Pricing</a></p>
+        <p class="footer-text"><a href="freelancers.html">Browse Freelancers</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

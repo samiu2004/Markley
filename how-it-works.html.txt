@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Makerly – How It Works</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Makerly</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="jobs.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="how-it-works.html" class="active">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="lang-toggle">EN / اردو</button>
+        <button class="currency-btn" id="currency-toggle">PKR / USD</button>
+        <button class="nav-cta">Sign In</button>
+        <button class="nav-menu" id="nav-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-inner">
+        <h1 class="section-title">How Makerly Works</h1>
+        <p class="section-subtitle">
+          Makerly connects Pakistani businesses and global clients with local freelancers through a simple, secure three-step process.[web:120]
+        </p>
+
+        <div class="grid-3" style="margin-top: 1.5rem;">
+          <div class="card">
+            <h3>1. Post or Find Work</h3>
+            <p>
+              Clients describe the project, budget and timeline, or search directly for freelancers in 10 focused categories such as web development, design, content and marketing.
+            </p>
+            <p>
+              Freelancers create profiles, list their skills, set rates in PKR, and optionally show approximate USD pricing for international clients.
+            </p>
+          </div>
+          <div class="card">
+            <h3>2. Match, Chat & Agree</h3>
+            <p>
+              Clients review profiles, portfolios and ratings, then invite shortlisted freelancers to submit proposals. A built‑in messaging system (future feature) helps clarify scope and timelines.[web:134]
+            </p>
+            <p>
+              Once both sides agree on terms, the project is confirmed with a clear total price and Makerly’s 15% commission visible upfront.
+            </p>
+          </div>
+          <div class="card">
+            <h3>3. Secure Work & Payment</h3>
+            <p>
+              Payment is held in escrow (planned feature) until the work is delivered. After completion, funds are released to the freelancer minus 15% commission.[web:120]
+            </p>
+            <p>
+              Local payout options like JazzCash, Easypaisa and bank transfer are prioritized to remove PayPal barriers for Pakistani freelancers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dual language & currency explanation -->
+    <section class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title">Dual Currency & Urdu Support</h2>
+        <p class="section-subtitle">
+          Makerly is built for Pakistani users but stays friendly for international clients through dual currency and language options.
+        </p>
+        <div class="commission-layout">
+          <div class="commission-text">
+            <h3>Dual currency view</h3>
+            <ul class="commission-list">
+              <li>Prices are set in PKR but can be previewed in USD for foreign clients.</li>
+              <li>Conversion uses a transparent reference rate (e.g. 1 USD ≈ 300 PKR) for display only.[web:240]</li>
+              <li>Clients and freelancers avoid confusion when agreeing on budgets.</li>
+            </ul>
+            <p>
+              This approach helps Pakistani freelancers communicate value in both local and international terms without changing how they actually get paid.
+            </p>
+          </div>
+          <div class="commission-card">
+            <h3>Urdu interface elements</h3>
+            <p class="section-subtitle" style="margin-bottom:0.7rem;">
+              Key labels and flows can be switched to Urdu so non‑English speakers can still use the marketplace comfortably.
+            </p>
+            <ul class="commission-list">
+              <li>Buttons and headings (e.g. “Hire Talent”, “Post Project”).</li>
+              <li>Navigation labels and helper text.</li>
+              <li>Onboarding tips and verification steps.</li>
+            </ul>
+            <p class="commission-note">
+              This prototype includes a basic EN / اردو toggle for key headings, showing how a bilingual interface would work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Departments & responsibilities overview (from business plan) -->
+    <section class="section">
+      <div class="section-inner">
+        <h2 class="section-title">Behind the scenes: Departments</h2>
+        <p class="section-subtitle">
+          Makerly’s business plan is structured around focused departments to run a professional marketplace: Product/Tech, Marketing, Operations, Finance and HR.
+        </p>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Product & Technology</h3>
+            <p>
+              Builds and maintains the platform, including matching, search, escrow logic, analytics and security controls.
+            </p>
+            <p>
+              Responsible for mobile‑first design and continuous improvements based on user feedback.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Marketing & Growth</h3>
+            <p>
+              Runs campaigns, influencer partnerships, social media and university outreach to bring in both freelancers and clients.
+            </p>
+            <p>
+              Owns Makerly’s brand as a Pakistan‑first alternative to global marketplaces.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Operations, Finance & HR</h3>
+            <p>
+              Operations: Manages verification, dispute resolution and customer support workflows.</p>
+            <p>
+              Finance: Tracks commission revenue, payouts and budgets. HR: Hires and supports the internal Makerly team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-logo">Makerly</p>
+        <p class="footer-text">
+          Makerly is designed and owned by Students of IBA as a Pakistan-first freelance services marketplace.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <p class="footer-text">
+          Email: <a href="mailto:contact@makerly.com">contact@makerly.com</a>
+        </p>
+        <p class="footer-text">
+          Phone: <a href="tel:0427466555">042-7466555</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <p class="footer-text"><a href="pricing.html">Commission & Pricing</a></p>
+        <p class="footer-text"><a href="freelancers.html">Browse Freelancers</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Makerly · Prototype for academic purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
