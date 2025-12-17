@@ -60,8 +60,9 @@ if (langToggle) {
       if (heroTitle) heroTitle.textContent = "Local Talent First";
       if (heroSubtitle)
         heroSubtitle.textContent =
-          "Pakistan-first freelance marketplace connecting businesses with verified local talent, dual currency support, Urdu interface, and a fair 15% commission.";
+          "Pakistan-first freelance marketplace connecting businesses with verified local talent, dual currency support, Urdu interface, and a fair 5% commission.";
       if (uspTitle) uspTitle.textContent = "Why Makerly?";
     }
   });
 }
+
